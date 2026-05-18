@@ -1,0 +1,21 @@
+User Side:
+SplashScreen
+Introduction_Screen
+Login Screen
+Dashboard -> Logout,History
+Banner->Slide
+Gridview
+ 1)Live Tracking
+ 2)Pending Courier
+ 3)Delivered Courier
+ 4)Customer Ratings
+
+
+Admin Side:
+SplashScreen
+Login Screen
+Dashboard -> Logout,History
+Add Users -> Signup Form
+
+
+
