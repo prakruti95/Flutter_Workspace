@@ -1,0 +1,19 @@
+Task:
+
+Splash Screen[Cafe]
+Login Screen [SharedPrefrence]
+Dashboard -> Menu Items[Checkbox] ,Logout Option
+Enter Table No:
+Display Items with price 
+
+ElevatedButton
+->Order
+-> Whatever bIll AMount is there should be display in next screen
+-> Back -> Dashboard -> Snackbar(Double tap to Exit)
+Set Logo 
+Cafe Name
+
+
+
+
+
