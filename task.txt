@@ -1,0 +1,117 @@
+1. Build a **“Food Delivery App – Restaurant Details Screen”** in Flutter.
+
+### Task Overview
+
+Create a responsive UI for a restaurant details page with a small amount of business logic.
+
+---
+
+# Requirements
+
+## UI Design
+
+Design a modern mobile screen containing:
+
+### 1. App Bar
+
+* Back button
+* Restaurant name
+* Favorite icon
+
+### 2. Restaurant Header
+
+* Restaurant image/banner
+* Name
+* Rating
+* Delivery time
+* Categories (Pizza, Burger, etc.)
+
+### 3. Search Bar
+
+* Search menu items
+
+### 4. Food Categories
+
+Horizontal scrollable chips:
+
+* All
+* Pizza
+* Drinks
+* Desserts
+* Burgers
+
+### 5. Food Item List
+
+Each item card should contain:
+
+* Food image
+* Food name
+* Description
+* Price
+* “Add” button
+
+
+---
+
+# Minor-Level Logic Requirements
+
+Implement these features:
+
+### 1. Category Filter
+
+When user taps a category chip:
+
+* Filter food items based on category
+
+### 2. Search Functionality
+
+* Filter food items by name
+
+### 3. Favorite Toggle
+
+* Tap favorite icon to toggle state
+
+---
+
+# Technical Requirements
+
+* Use Flutter
+* Use StatefulWidget OR Provider/GetX/Riverpod
+* Proper folder structure
+* Reusable widgets
+* Clean UI
+* Responsive layout
+
+---
+
+# Bonus Points
+
+* Smooth animations
+* Dark mode
+* Hero animation for food image
+* Shimmer loading effect
+
+---
+
+# Suggested Data Model
+
+```dart
+class FoodItem {
+  final String name;
+  final String category;
+  final double price;
+  final String image;
+  final String description;
+
+  FoodItem({
+    required this.name,
+    required this.category,
+    required this.price,
+    required this.image,
+    required this.description,
+  });
+}
+```
+
+
+
