@@ -1,0 +1,285 @@
+# Flutter Assignment: Smart Services Marketplace App
+
+### Duration
+
+**90 Minutes (1.5 Hours)**
+
+## Objective
+
+Build a **Smart Services Marketplace App** where users can browse services, view service provider details, and contact providers directly from the app.
+
+This assignment will help you practice:
+
+* Flutter UI Design
+* Navigation
+* ListView/GridView
+* Data Passing Between Screens
+* User Interaction
+* URL Launcher (Call Feature)
+* Project Structure
+
+---
+
+# Features to Implement
+
+## 1. Dashboard Screen
+
+Create a Dashboard Screen with:
+
+### AppBar
+
+**Title:** Smart Services Marketplace
+
+### Navigation Drawer
+
+Include:
+
+* Home
+* My Profile
+* About Us
+* Logout
+
+### Service Categories
+
+Display at least **6 services** using ListView or GridView.
+
+Example Services:
+
+* Electrician
+* Plumber
+* Carpenter
+* Painter
+* AC Repair
+* Cleaning Service
+
+Each service card should display:
+
+* Service Icon
+* Service Name
+* Short Description
+
+---
+
+## 2. Service Provider List Screen
+
+When a user taps a service category, navigate to a screen showing available service providers.
+
+Display at least **3 providers per service**.
+
+Each provider card should contain:
+
+* Profile Image/Icon
+* Provider Name
+* Experience (Years)
+* Rating (⭐)
+* Contact Number
+
+Example:
+
+```text
+Rahul Electric Works
+
+Experience: 5 Years
+Rating: ⭐ 4.5
+Phone: 9876543210
+```
+
+---
+
+## 3. Provider Details Screen
+
+When a provider is selected, show:
+
+### Provider Information
+
+* Name
+* Service Type
+* Experience
+* Rating
+* Contact Number
+* Address
+* About Provider
+
+### Example
+
+```text
+Name: Rahul Electric Works
+
+Service: Electrician
+
+Experience: 5 Years
+
+Rating: ⭐ 4.5
+
+Address:
+Ahmedabad, Gujarat
+
+About:
+Professional electrical installation and repair specialist.
+```
+
+---
+
+## 4. Call Service Provider Feature ⭐
+
+Add a **Call Now** button.
+
+When the button is clicked:
+
+```dart
+launchUrl(Uri.parse('tel:9876543210'));
+```
+
+The device should open the dialer with the provider's phone number.
+
+### Package
+
+Use:
+
+```yaml
+url_launcher: ^6.2.5
+```
+
+---
+
+## 5. WhatsApp Contact Feature ⭐
+
+Add a **WhatsApp** button.
+
+Example:
+
+```dart
+https://wa.me/919876543210
+```
+
+When clicked, WhatsApp should open with the provider's number.
+
+---
+
+## 6. Search Services Feature
+
+Add a TextField on the Dashboard.
+
+Users should be able to search services by name.
+
+Example:
+
+```text
+Search: Plumber
+```
+
+Only matching services should appear.
+
+---
+
+## UI Components to Use
+
+Your application must include:
+
+* Scaffold
+* AppBar
+* Drawer
+* ListView or GridView
+* Card
+* Container
+* Text
+* Icon
+* ElevatedButton
+* TextField
+* Navigator
+* InkWell or GestureDetector
+
+---
+
+# Suggested Folder Structure
+
+```text
+lib/
+│
+├── main.dart
+│
+├── models/
+│   ├── service_model.dart
+│   └── provider_model.dart
+│
+├── screens/
+│   ├── dashboard_screen.dart
+│   ├── provider_list_screen.dart
+│   └── provider_detail_screen.dart
+│
+├── widgets/
+│   └── service_card.dart
+│
+└── data/
+    └── dummy_data.dart
+```
+
+---
+
+# Sample Data
+
+### Services
+
+```dart
+Electrician
+Plumber
+Carpenter
+Painter
+AC Repair
+Cleaning
+```
+
+### Providers
+
+```dart
+Rahul Electric Works
+Phone: 9876543210
+
+Amit Plumbing Services
+Phone: 9876543211
+
+Vikas Carpenter Solutions
+Phone: 9876543212
+```
+
+---
+
+
+
+
+
+### Bonus 1: Bottom Navigation Bar
+
+Tabs:
+
+* Home
+* Services
+* Profile
+
+### Bonus 2: Favorite Providers
+
+Allow users to mark providers as favorites using a heart icon.
+
+### Bonus 3: Dark Mode
+
+Add Light and Dark Theme support.
+
+### Bonus 4: Provider Rating UI
+
+Display ratings using stars.
+
+
+# Submission Requirements
+
+Submit:
+
+1. Complete Flutter Project
+2. Screenshots of:
+
+   * Dashboard Screen
+   * Provider List Screen
+   * Provider Detail Screen
+3. Source Code
+
+
+
