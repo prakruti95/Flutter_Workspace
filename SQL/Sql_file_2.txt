@@ -1,0 +1,47 @@
+Scalar functions:
+These functions are based on user input, these too returns single value.
+◦ UCASE() - Converts a field to upper case
+◦ LCASE() - Converts a field to lower case
+◦ MID() - Extract characters from a text field
+◦ LEN() - Returns the length of a text field
+◦ ROUND() - Rounds a numeric field to the number of decimals
+specified
+◦ NOW() - Returns the current system date and time
+◦ FORMAT() - Formats how a field is to be displayed
+
+
+Agreegate Functions:
+MAX
+MIN
+SUM
+AVG
+COUNT
+FIRST
+LAST
+
+
+agreegate functions:
+MAX->SELECT MAX(salary) FROM data
+MIN->SELECT MIN(salary) FROM data
+SUM-> SELECT SUM(salary) FROM data
+AVG->SELECT AVG(salary) FROM data
+COUNT->SELECT COUNT(salary) FROM data 
+FIRST-> SELECT salary FROM data LIMIT 1; 
+LAST->SELECT * from data ORDER by salary DESC LIMIT 1; 
+
+Scalar Functions
+UCASE->SELECT UCASE(name) FROM data
+LCASE->SELECT LCASE(name) FROM data
+MID -> SELECT MID(NAME,1,4) FROM Students; 
+LEN -> SELECT LENGTH(NAME) FROM Stuents; 
+ROUND->SELECT ROUND(MARKS,0) FROM table_name;
+NOW->SELECT NAME, NOW() AS DateTime FROM Students; 
+FORMAT->SELECT NAME, FORMAT(Now(),'YYYY-MM-DD') AS Date FROM
+Students; 
+
+
+SELECT * FROM city JOIN Test123 on city.id = Test123.id
+
+SELECT * FROM city LEFT JOIN Test123 on city.id = Test123.id
+UNION
+SELECT * FROM city RIGHT JOIN Test123 on city.id = Test123.id
