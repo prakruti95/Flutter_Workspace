@@ -1,0 +1,9 @@
+Online Database: API Calling
+
+API -> Application Programming Interface
+
+Flow of API:
+database
+tables
+columns
+data->insert,view,update,delete
