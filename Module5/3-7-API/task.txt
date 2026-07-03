@@ -1,0 +1,9 @@
+product_name
+product_price
+product_des
+
+connect
+insert
+view
+update
+delete
