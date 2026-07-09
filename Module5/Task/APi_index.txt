@@ -1,0 +1,11 @@
+index.php:
+
+echo "<h2>Jay API</h2>";
+<ul>
+	<li><a href='jay/insert.php'>Product Insert</a></li>
+	<li><a href='jay/insert.php'>Product Insert</a></li>
+	<li><a href='insert.php'>Product Insert</a></li>
+	<li><a href='insert.php'>Product Insert</a></li>
+	<li><a href='insert.php'>Product Insert</a></li>
+	<li><a href='insert.php'>Product Insert</a></li>
+</ul>
