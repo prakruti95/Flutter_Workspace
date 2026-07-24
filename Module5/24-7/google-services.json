@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "787655115751",
+    "project_id": "device-streaming-dd893fe8",
+    "storage_bucket": "device-streaming-dd893fe8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787655115751:android:4e6e1285aeb4d316d73342",
+        "android_client_info": {
+          "package_name": "com.example.demo1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787655115751-69u8a8o19c934357q4r33tumkj2e8igo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.demo1",
+            "certificate_hash": "d3ce74bc13e1f4f5d624c7cf5a7577615803d35e"
+          }
+        },
+        {
+          "client_id": "787655115751-9tue0k0orcagbin87uppc08bgs7el128.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqSqVKdt601OGNta8S6BVGr1r4U4Rpd3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787655115751-9tue0k0orcagbin87uppc08bgs7el128.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787655115751:android:f39c0c73fb49ee96d73342",
+        "android_client_info": {
+          "package_name": "com.example.firebasecrud11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787655115751-9tue0k0orcagbin87uppc08bgs7el128.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqSqVKdt601OGNta8S6BVGr1r4U4Rpd3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787655115751-9tue0k0orcagbin87uppc08bgs7el128.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
